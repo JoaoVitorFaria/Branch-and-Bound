@@ -1,8 +1,3 @@
-//ANALISE E PROJETO DE ALGORITMOS II
-//Trabalho 02 - Um escalonamento de tres maquinas
-//Nome: João Vitor de Faria
-//Matricula: 2019006030
-//Solucao baseada no codigo disponibilizado pelo professor.
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -122,7 +117,7 @@ void escalonamento(int num_tarefas, int * custo_tarefas, int tarefa_atual, int *
 	resto = resto - (maior - maquina_1);
 	resto = resto - (maior - maquina_2);
 	resto = resto - (maior - maquina_3);
-	//esse resto é a diferença entre maior e menor maquina// so calcular o maior e menor e fazer o mesmo.
+	//esse resto Ã© a diferenÃ§a entre maior e menor maquina// so calcular o maior e menor e fazer o mesmo.
 	//se sobrou itens, utopicamente poderiamos dividir o que sobrou exatamente
 	//igual entre as maquinas. Como os tempos sao inteiros, o tempo certamente
 	//sera inteiro e por isso eu posso tirar o teto
